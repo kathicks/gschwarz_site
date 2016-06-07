@@ -1,0 +1,50 @@
+body {
+  padding-top: 70px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand {
+	font-family: 'Sarina', cursive;
+	font-size: 30px;
+}
+
+.row {
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.header {
+	position: absolute;
+	left: 0;
+	top: 40%;
+	text-align: center;
+   	width: 100%;
+   	margin: 0 auto;
+	color: #FFFFFF;
+	font-size: 26px;
+}
+
+.circle {
+	position: relative;
+	width: 100%;
+	border-radius: 50%;
+	padding-top: 50%;
+	padding-bottom: 50%;
+	z-index: -1;
+}
+
+#curating {
+	background-color: #FF7465;
+}
+
+#interview {
+	background-color: #E85C72;
+}
+
+#essay {
+	background-color: #FF72CE;
+}
+
+#review {
+	background-color: #C865FF;
+}

@@ -1,3 +1,3 @@
-# gschwarz_site
+# Gabrielle Schwarz
 
 Portfolio website for Gabrielle Schwarz

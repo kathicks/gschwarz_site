@@ -3,48 +3,89 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.navbar-brand {
-	font-family: 'Sarina', cursive;
-	font-size: 30px;
+.container{
+	margin, padding: 0 !important;
 }
 
 .row {
-	margin-top: 10%;
-	margin-bottom: 10%;
+	height: 100%;
+	margin: auto auto;
+}
+
+.navbar-brand {
+	font-family: 'Sarina', cursive;
+	font-size: 18px;
+}
+
+@media screen and (min-width: 420px) {
+    .navbar-brand {
+		font-family: 'Sarina', cursive;
+		font-size: 28px;
+	}
 }
 
 .header {
 	position: absolute;
 	left: 0;
-	top: 40%;
+	top: 42%;
 	text-align: center;
    	width: 100%;
    	margin: 0 auto;
 	color: #FFFFFF;
-	font-size: 26px;
+	font-size: 14px;
+}
+
+@media screen and (min-width: 420px) {
+    .header {
+		position: absolute;
+		left: 0;
+		top: 42%;
+		text-align: center;
+	   	width: 100%;
+	   	margin: 0 auto;
+		color: #FFFFFF;
+		font-size: 18px;
+	}
+}
+
+@media screen and (min-width: 600px) {
+    .header {
+		position: absolute;
+		left: 0;
+		top: 42%;
+		text-align: center;
+	   	width: 100%;
+	   	margin: 0 auto;
+		color: #FFFFFF;
+		font-size: 24px;
+	}
 }
 
 .circle {
 	position: relative;
-	width: 100%;
+	width: 80%;
 	border-radius: 50%;
-	padding-top: 50%;
-	padding-bottom: 50%;
+	padding-top: 40%;
+	padding-bottom: 40%;
+	margin: 1.5% auto;
 	z-index: -1;
 }
 
 #curating {
-	background-color: #FF7465;
+	background-color: #FF7565;
 }
-
-#interview {
-	background-color: #E85C72;
+#criticism {
+	background-color: #E85C71;
 }
-
-#essay {
+#essays {
 	background-color: #FF72CE;
 }
-
-#review {
+#interviews {
+	background-color: #DC5CE8;
+}
+#lists {
+	background-color: #9055F5;
+}
+#publications {
 	background-color: #C865FF;
 }

@@ -12,16 +12,11 @@ body {
 	margin: auto auto;
 }
 
+/*Header: standard formatting*/
+
 .navbar-brand {
 	font-family: 'Sarina', cursive;
 	font-size: 18px;
-}
-
-@media screen and (min-width: 420px) {
-    .navbar-brand {
-		font-family: 'Sarina', cursive;
-		font-size: 28px;
-	}
 }
 
 .header {
@@ -35,8 +30,16 @@ body {
 	font-size: 14px;
 }
 
-@media screen and (min-width: 420px) {
-    .header {
+/*Header: media formatting*/
+
+/*Bootstrap xs tag has a max-width of 544px*/
+@media screen and (min-width: 544px) {
+    .navbar-brand {
+		font-family: 'Sarina', cursive;
+		font-size: 28px;
+	}
+
+	.header {
 		position: absolute;
 		left: 0;
 		top: 42%;
@@ -48,7 +51,8 @@ body {
 	}
 }
 
-@media screen and (min-width: 600px) {
+/*Bootstrap md tag has a min-width of 768px*/
+@media screen and (min-width: 768px) {
     .header {
 		position: absolute;
 		left: 0;
@@ -60,6 +64,8 @@ body {
 		font-size: 24px;
 	}
 }
+
+/*Front page circles formatting*/
 
 .circle {
 	position: relative;
@@ -74,18 +80,57 @@ body {
 #curating {
 	background-color: #FF7565;
 }
+
 #criticism {
 	background-color: #E85C71;
 }
+
 #essays {
 	background-color: #FF72CE;
 }
+
 #interviews {
 	background-color: #DC5CE8;
 }
+
 #lists {
 	background-color: #9055F5;
 }
+
 #publications {
 	background-color: #C865FF;
+}
+
+/*Content Pages*/
+
+.content-title {
+	margin-bottom: 2.5%;
+	height: 48px;
+	opacity: 0.6;
+	filter: alpha(opacity=60); /*For IE8 and earlier*/
+}
+
+h1 {
+	color: #FFFFFF;
+	font-size: 24px;
+	margin: 0;
+	padding: 10px 16px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+/*Images*/
+
+#publication_1 {
+	background-image: url('images/confusionoftongues.png');
+}
+
+#publication_2 {
+	background-image: url('images/publications_pembrokestreet_lent_2013.png');
+}
+
+#publication_3 {
+	background-image: url('images/publications_pembrokestreet_michaelmas_2013.png');
 }

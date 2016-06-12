@@ -80,23 +80,18 @@ body {
 #curating {
 	background-color: #FF7565;
 }
-
 #criticism {
 	background-color: #E85C71;
 }
-
 #essays {
 	background-color: #FF72CE;
 }
-
 #interviews {
 	background-color: #DC5CE8;
 }
-
 #lists {
 	background-color: #9055F5;
 }
-
 #publications {
 	background-color: #C865FF;
 }
@@ -111,26 +106,93 @@ body {
 }
 
 h1 {
-	color: #FFFFFF;
+	padding: 10px 16px;
 	font-size: 24px;
 	margin: 0;
-	padding: 10px 16px;
+	color: #FFFFFF;
 }
 
 h2 {
-	font-size: 18px;
+	font-size: 20px;
+	margin: 8px 0 8px 0;
 }
 
-/*Images*/
+h3 {
+	font-size: 16px;
+	margin: 0 0 12px 0;
+	font-weight: bold;
+}
 
+/* --------Images-------- [Total: 15]*/
+
+/* 1. Curating*/
+#curating_1 {
+	background-image: url('images/curating_confusionoftongues.png');
+	background-size: contain;
+}
+
+/*2. Criticism*/
+#criticism_1 {
+	background-image: url('images/criticism_marielund.jpg');
+	background-size: contain;
+}
+#criticism_2 {
+	background-image: url('images/criticism_callandresponse.jpg');
+	background-size: contain;
+}
+#criticism_3 {
+	background-image: url('images/criticism_edoerotica.jpg');
+	background-size: contain;
+}
+#criticism_4 {
+	background-image: url('images/criticism_getaway.jpg');
+	background-size: contain;
+}
+#criticism_5 {
+	background-image: url('images/criticism_hunt&darton.jpg');
+	background-size: contain;
+}
+
+/*3. Essays*/
+#essay_1 {
+	background-image: url('images/essay_artintosociety.png');
+	background-size: contain;
+}
+
+/*4. Interviews*/
+#interview_1 {
+	background-image: url('images/interview_christabel_balfour.jpg');
+	background-size: contain;
+}
+#interview_2 {
+	background-image: url('images/interview_changingspaces.jpg');
+	background-size: contain;
+}
+
+/*5. Publications*/
 #publication_1 {
 	background-image: url('images/confusionoftongues.png');
+	background-size: contain;
 }
-
 #publication_2 {
 	background-image: url('images/publications_pembrokestreet_lent_2013.png');
+	background-size: contain;
 }
-
 #publication_3 {
 	background-image: url('images/publications_pembrokestreet_michaelmas_2013.png');
+	background-size: contain;
+}
+
+/*6. Lists*/
+#lists_1 {
+	background-image: url('images/lists_henriksen_full_circle.jpg');
+	background-size: contain;
+}
+#lists_2 {
+	background-image: url('images/lists_derrymoore.jpg');
+	background-size: contain;
+}
+#lists_3 {
+	background-image: url('images/lists_williamhogarth.jpg');
+	background-size: contain;
 }

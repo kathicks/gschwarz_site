@@ -3,20 +3,12 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.container{
-	margin, padding: 0 !important;
-}
-
-.row {
-	height: 100%;
-	margin: auto auto;
-}
 
 /*Header: standard formatting*/
 
 .navbar-brand {
 	font-family: 'Sarina', cursive;
-	font-size: 18px;
+	font-size: 24px;
 }
 
 .header {
@@ -30,70 +22,106 @@ body {
 	font-size: 14px;
 }
 
-/*Header: media formatting*/
+		/*Header: media formatting*/
 
-/*Bootstrap xs tag has a max-width of 544px*/
-@media screen and (min-width: 544px) {
-    .navbar-brand {
-		font-family: 'Sarina', cursive;
-		font-size: 28px;
-	}
+		/*Bootstrap xs tag has a max-width of 544px*/
+		@media screen and (min-width: 544px) {
+		    .navbar-brand {
+				font-family: 'Sarina', cursive;
+				font-size: 28px;
+			}
+			.header {
+				position: absolute;
+				left: 0;
+				top: 42%;
+				text-align: center;
+			   	width: 100%;
+			   	margin: 0 auto;
+				color: #FFFFFF;
+				font-size: 18px;
+			}
+		}
 
-	.header {
-		position: absolute;
-		left: 0;
-		top: 42%;
-		text-align: center;
-	   	width: 100%;
-	   	margin: 0 auto;
-		color: #FFFFFF;
-		font-size: 18px;
-	}
-}
 
-/*Bootstrap md tag has a min-width of 768px*/
-@media screen and (min-width: 768px) {
-    .header {
-		position: absolute;
-		left: 0;
-		top: 42%;
-		text-align: center;
-	   	width: 100%;
-	   	margin: 0 auto;
-		color: #FFFFFF;
-		font-size: 24px;
-	}
+		/*Bootstrap md tag has a min-width of 768px*/
+		@media screen and (min-width: 768px) {
+		    .header {
+				position: absolute;
+				left: 0;
+				top: 42%;
+				text-align: center;
+			   	width: 100%;
+			   	margin: 0 auto;
+				color: #FFFFFF;
+				font-size: 24px;
+			}
+		}
+
+/*Footer*/
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 40px;
+	line-height: 40px; /* Vertically center the text there */
+	background-color: #f5f5f5;
+	text-align: center;
+	font-size: 12px;
 }
 
 /*Front page circles formatting*/
 
 .circle {
-	position: relative;
-	width: 80%;
+	width: 420px;
+	height: 420px;
 	border-radius: 50%;
-	padding-top: 40%;
-	padding-bottom: 40%;
-	margin: 1.5% auto;
-	z-index: -1;
+	line-height: 420px;
 }
 
-#curating {
+h2 {
+  	text-align: center;
+	color: #FFFFFF;
+	position: relative;
+	top: 50%;
+ 	transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.circle:hover {
+	text-decoration: none;
+	font-weight: bold;
+	width: 440px;
+	height: 440px;
+	border-radius: 50%;
+	line-height: 440px;
+}
+
+.vertical-center {
+    min-height: 80%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 80vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+}
+
+a {
+	margin: 0 auto;
+}
+
+#editing {
 	background-color: #FF7565;
 }
-#criticism {
+#curating {
 	background-color: #E85C71;
 }
-#essays {
+#writing {
 	background-color: #FF72CE;
-}
-#interviews {
-	background-color: #DC5CE8;
-}
-#lists {
-	background-color: #9055F5;
-}
-#publications {
-	background-color: #C865FF;
 }
 
 /*Content Pages*/
@@ -110,11 +138,6 @@ h1 {
 	font-size: 24px;
 	margin: 0;
 	color: #FFFFFF;
-}
-
-h2 {
-	font-size: 20px;
-	margin: 8px 0 8px 0;
 }
 
 h3 {

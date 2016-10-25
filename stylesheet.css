@@ -6,9 +6,15 @@ body {
 
 /*Header: standard formatting*/
 
+.navbar, .navbar-brand {
+	height: 80px;
+	line-height: 80px;
+}
+
 .navbar-brand {
 	font-family: 'Sarina', cursive;
-	font-size: 24px;
+	font-size: 36px !important;
+	padding: 0;
 }
 
 .header {
@@ -103,8 +109,8 @@ a:hover {
 }
 
 .vertical-center {
-    min-height: 80%;  /* Fallback for browsers do NOT support vh unit */
-    min-height: 80vh; /* These two lines are counted as one :-)       */
+    min-height: 82%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 82vh; /* These two lines are counted as one :-)       */
 
     display: flex;
     align-items: center;

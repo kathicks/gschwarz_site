@@ -270,3 +270,13 @@ h3 {
 	background-image: url('images/lists_williamhogarth.jpg');
 	background-size: contain;
 }
+
+/*Info page */
+th, td {
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+h3 {
+	padding-top: 30px;
+}

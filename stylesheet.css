@@ -1,20 +1,30 @@
+html {
+  position: relative;
+  min-height: 100.1%;
+}
+
 body {
   padding-top: 70px;
+  margin-bottom: 40px;
   font-family: 'Open Sans', sans-serif;
 }
 
 
 /*Header: standard formatting*/
 
-.navbar, .navbar-brand {
+.navbar, .navbar-brand, .navbar-toggle, .navbar-collapse {
 	height: 80px;
 	line-height: 80px;
+	padding: 0;
 }
 
 .navbar-brand {
 	font-family: 'Sarina', cursive;
 	font-size: 36px !important;
-	padding: 0;
+}
+
+.navbar-right {
+	margin-top: 1.2%;
 }
 
 .header {
@@ -65,7 +75,7 @@ body {
 
 /*Footer*/
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 	/* Set the fixed height of the footer here */
@@ -83,6 +93,9 @@ body {
 	height: 480px;
 	border-radius: 50%;
 	line-height: 480px;
+	-webkit-box-shadow: 0px 10px 113px 10px rgba(140,140,140,0.5);
+	-moz-box-shadow: 0px 10px 113px 10px rgba(140,140,140,0.5);
+	box-shadow: 0px 10px 113px 10px rgba(140,140,140,0.5);
 }
 
 h2 {
@@ -106,6 +119,9 @@ a:hover {
 	height: 520px;
 	border-radius: 50%;
 	line-height: 520px;
+	-webkit-box-shadow: 0px 10px 113px 10px rgba(140,140,140,0.5);
+	-moz-box-shadow: 0px 10px 113px 10px rgba(140,140,140,0.5);
+	box-shadow: 0px 10px 113px 10px rgba(140,140,140,0.5);
 }
 
 .vertical-center {
@@ -184,10 +200,14 @@ a {
 /*Content Pages*/
 
 .content-title {
-	margin-bottom: 2.5%;
+	margin: 2.5% auto;
 	height: 48px;
 	opacity: 0.6;
 	filter: alpha(opacity=60); /*For IE8 and earlier*/
+}
+
+.blurb {
+	margin-bottom: 30px;
 }
 
 h1 {
@@ -201,6 +221,12 @@ h3 {
 	font-size: 16px;
 	margin: 0 0 12px 0;
 	font-weight: bold;
+}
+
+.info-box {
+	background-size: cover;
+	background-position: center bottom;
+	margin-top: 30px;
 }
 
 /* --------Images-------- [Total: 15]*/
@@ -249,32 +275,18 @@ h3 {
 	background-size: contain;
 }
 
-/*5. Publications*/
-#publication_1 {
+/*Editing*/
+#editing-4 {
 	background-image: url('images/confusionoftongues.png');
-	background-size: contain;
+	background-size: cover;
 }
-#publication_2 {
+#editing-3 {
 	background-image: url('images/publications_pembrokestreet_lent_2013.png');
-	background-size: contain;
+	background-size: cover;
 }
-#publication_3 {
+#editing-2 {
 	background-image: url('images/publications_pembrokestreet_michaelmas_2013.png');
-	background-size: contain;
-}
-
-/*6. Lists*/
-#lists_1 {
-	background-image: url('images/lists_henriksen_full_circle.jpg');
-	background-size: contain;
-}
-#lists_2 {
-	background-image: url('images/lists_derrymoore.jpg');
-	background-size: contain;
-}
-#lists_3 {
-	background-image: url('images/lists_williamhogarth.jpg');
-	background-size: contain;
+	background-size: cover;
 }
 
 /*Info page */

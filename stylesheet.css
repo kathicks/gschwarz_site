@@ -4,8 +4,7 @@ html {
 }
 
 body {
-  margin-top: 70px;
-  margin-bottom: 70px;
+  padding-top: 80px;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -89,35 +88,47 @@ body {
 /*Front page circles formatting*/
 
 .circle {
-	width: 480px;
-	height: 480px;
+	width: 360px;
+	height: 360px;
 	border-radius: 50%;
-	line-height: 480px;
+	line-height: 360px;
+
+	border-color: #ffffff;
+	border-width: 3px;
+	border-style: solid;
+
 	-webkit-box-shadow: 0px 10px 113px 10px rgba(140,140,140,0.5);
 	-moz-box-shadow: 0px 10px 113px 10px rgba(140,140,140,0.5);
 	box-shadow: 0px 10px 113px 10px rgba(140,140,140,0.5);
 }
 
 h2 {
+  	position: relative;
+  	top: 42%;
   	text-align: center;
 	color: #FFFFFF;
-	position: relative;
-	top: 50%;
+	
  	transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
 }
 
 .circle:hover {
-	text-decoration: none;
-	font-weight: bold;
-	width: 520px;
-	height: 520px;
+	width: 380px;
+	height: 380px;
 	border-radius: 50%;
-	line-height: 520px;
-	-webkit-box-shadow: 0px 10px 113px 10px rgba(140,140,140,0.5);
-	-moz-box-shadow: 0px 10px 113px 10px rgba(140,140,140,0.5);
-	box-shadow: 0px 10px 113px 10px rgba(140,140,140,0.5);
+	line-height: 380px;
+
+	border-color: #ffffff;
+	border-width: 3px;
+	border-style: solid;
+
+	text-decoration: none;
+	margin: -10px;
+
+	-webkit-box-shadow: 0px 10px 100px 10px rgba(140,140,140,0.5);
+	-moz-box-shadow: 0px 10px 100px 10px rgba(140,140,140,0.5);
+	box-shadow: 0px 10px 100px 10px rgba(140,140,140,0.5);
 }
 
 .vertical-center {
@@ -128,57 +139,6 @@ h2 {
     align-items: center;
 }
 
-		@media screen and (max-width: 1600px) {
-			.circle {
-				width: 400px;
-				height: 400px;
-				border-radius: 50%;
-				line-height: 400px;
-			}
-			.circle:hover {
-				text-decoration: none;
-				font-weight: bold;
-				width: 440px;
-				height: 440px;
-				border-radius: 50%;
-				line-height: 440px;
-			}
-		}
-
-		@media screen and (max-width: 1200px) {
-			.circle {
-				width: 320px;
-				height: 320px;
-				border-radius: 50%;
-				line-height: 320px;
-			}
-			.circle:hover {
-				text-decoration: none;
-				font-weight: bold;
-				width: 360px;
-				height: 360px;
-				border-radius: 50%;
-				line-height: 360px;
-			}
-		}
-
-		@media screen and (max-width: 800px) {
-			.circle {
-				width: 240px;
-				height: 240px;
-				border-radius: 50%;
-				line-height: 240px;
-			}
-			.circle:hover {
-				text-decoration: none;
-				font-weight: bold;
-				width: 280px;
-				height: 280px;
-				border-radius: 50%;
-				line-height: 280px;
-			}
-		}
-
 #editing {
 	background-color: #FF7565;
 }
@@ -187,6 +147,18 @@ h2 {
 }
 #writing {
 	background-color: #FF72CE;
+}
+
+#main-page {
+	background-color: rgba(249,249,249,0.6);
+	border-color: #f5f5f5;
+	border-width: 1px;
+	border-style: solid;
+	padding-bottom: 15px;
+}
+
+#info {
+	background-color: #7F7F7F;
 }
 
 /*Content Pages*/

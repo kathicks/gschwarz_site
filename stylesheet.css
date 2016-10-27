@@ -4,8 +4,8 @@ html {
 }
 
 body {
-  padding-top: 70px;
-  margin-bottom: 40px;
+  margin-top: 70px;
+  margin-bottom: 70px;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -108,10 +108,6 @@ h2 {
     -ms-transform: translateY(-50%);
 }
 
-a:hover {
-	text-decoration: none;
-}
-
 .circle:hover {
 	text-decoration: none;
 	font-weight: bold;
@@ -130,10 +126,6 @@ a:hover {
 
     display: flex;
     align-items: center;
-}
-
-a {
-	margin: 0 auto;
 }
 
 		@media screen and (max-width: 1600px) {
@@ -224,69 +216,58 @@ h3 {
 }
 
 .info-box {
-	background-size: cover;
-	background-position: center bottom;
 	margin-top: 30px;
+	margin-bottom: 20px;
+	height: 300px;
+	border-color: #f5f5f5;
+	border-width: 1px;
+	border-style: solid;
 }
 
-/* --------Images-------- [Total: 15]*/
-
-/* 1. Curating*/
-#curating_1 {
-	background-image: url('images/curating_confusionoftongues.png');
-	background-size: contain;
+.info-image { 
+    display:table-cell; 
+    vertical-align:middle; 
+    width: 60%;
+    height: auto;
+    margin: 0;
+    position: relative;
+    top: -30px;
+    padding:0;   
+    height:298px; 
+    background-size:100%; 
+    background-size: cover;
+    background-position: center bottom;
 }
 
-/*2. Criticism*/
-#criticism_1 {
-	background-image: url('images/criticism_marielund.jpg');
-	background-size: contain;
-}
-#criticism_2 {
-	background-image: url('images/criticism_callandresponse.jpg');
-	background-size: contain;
-}
-#criticism_3 {
-	background-image: url('images/criticism_edoerotica.jpg');
-	background-size: contain;
-}
-#criticism_4 {
-	background-image: url('images/criticism_getaway.jpg');
-	background-size: contain;
-}
-#criticism_5 {
-	background-image: url('images/criticism_hunt&darton.jpg');
-	background-size: contain;
+.info-text { 
+    display:table-cell; 
+    vertical-align:middle; 
+    padding:0 10px;
+    width: 80%;
+    position: relative;
+    top: -30px;
 }
 
-/*3. Essays*/
-#essay_1 {
-	background-image: url('images/essay_artintosociety.png');
-	background-size: contain;
+.info-tag {
+	width: 100%;
+	height: 30px;
+	font-size: 14px;
+	background-color: #f5f5f5;
+	position: relative;
+	top: -30px;
+	padding-top: 5px;
+	border-radius: 5px 5px 0px 0px;
+	font-weight: bolder;
+	text-align: center;
+	border-color: #f5f5f5;
+	border-width: 1px;
+	border-style: solid;
 }
 
-/*4. Interviews*/
-#interview_1 {
-	background-image: url('images/interview_christabel_balfour.jpg');
-	background-size: contain;
-}
-#interview_2 {
-	background-image: url('images/interview_changingspaces.jpg');
-	background-size: contain;
-}
-
-/*Editing*/
-#editing-4 {
-	background-image: url('images/confusionoftongues.png');
-	background-size: cover;
-}
-#editing-3 {
-	background-image: url('images/publications_pembrokestreet_lent_2013.png');
-	background-size: cover;
-}
-#editing-2 {
-	background-image: url('images/publications_pembrokestreet_michaelmas_2013.png');
-	background-size: cover;
+a, a:link, a:hover, a:visited, a:active {
+	margin: 0 auto; /*keeps landing circles centre aligned*/
+	text-decoration: none; /*keeps info boxes standard styling */
+	color: #000000;
 }
 
 /*Info page */

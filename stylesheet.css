@@ -163,6 +163,12 @@ h2 {
 
 #info {
 	background-color: #7F7F7F;
+	height: 35px;
+	margin-bottom: 8px;
+}
+
+#info h1 {
+	font-size: 98%;
 }
 
 /*Content Pages*/
@@ -261,4 +267,9 @@ th, td {
 
 h3 {
 	padding-top: 30px;
+}
+
+img {
+	height: 20px;
+	margin-bottom: 1px;
 }

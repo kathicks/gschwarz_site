@@ -13,21 +13,11 @@ body {
 }
 
 
-/*Header: standard formatting*/
-
-.navbar, .navbar-brand, .navbar-toggle {
-	height: 80px;
-	line-height: 80px;
-	padding: 0;
-}
+/* ------------ HEADER ------------ */
 
 .navbar-brand {
 	font-family: 'Sarina', cursive;
 	font-size: 36px !important;
-}
-
-.navbar-right {
-	margin-top: 15px;
 }
 
 .header {
@@ -40,6 +30,18 @@ body {
 	color: #FFFFFF;
 	font-size: 14px;
 }
+
+
+.navbar, .navbar-brand, .navbar-toggle {
+	padding: 0;
+	height: 80px;
+	line-height: 80px;
+}
+
+.navbar-right {
+	margin-top: 15px;
+}
+
 
 button {
 	width: 40px !important;
@@ -63,64 +65,37 @@ button {
 	filter: alpha(opacity=60); /*For IE8 and earlier*/
 }
 
-@media screen and (max-width: 768px) {
-	.navbar-collapse {
-		background-color: #FFFFFF;
-		border-bottom-color: #f5f5f5;
-		border-bottom-width: 2px;
-		border-bottom-style: solid;
+	@media screen and (max-width: 768px) {
+		.navbar-collapse {
+			background-color: #FFFFFF;
+			border-bottom-color: #f5f5f5;
+			border-bottom-width: 2px;
+			border-bottom-style: solid;
+		}
+
+		.navbar-brand {
+			font-size: 32px !important;
+			padding-left: 12px;
+		}
 	}
-}
-
-		/*Header: media formatting*/
-
-		/*Bootstrap xs tag has a max-width of 544px*/
-		@media screen and (min-width: 544px) {
-		    .navbar-brand {
-				font-family: 'Sarina', cursive;
-				font-size: 28px;
-			}
-			.header {
-				position: absolute;
-				left: 0;
-				top: 42%;
-				text-align: center;
-			   	width: 100%;
-			   	margin: 0 auto;
-				color: #FFFFFF;
-				font-size: 18px;
-			}
-		}
 
 
-		/*Bootstrap md tag has a min-width of 768px*/
-		@media screen and (min-width: 768px) {
-		    .header {
-				position: absolute;
-				left: 0;
-				top: 42%;
-				text-align: center;
-			   	width: 100%;
-			   	margin: 0 auto;
-				color: #FFFFFF;
-				font-size: 24px;
-			}
-		}
+/* ------------ FOOTER ------------ */
 
-/*Footer*/
 .footer {
     position: fixed;
     bottom: 0;
+
     width: 100%;
-	/* Set the fixed height of the footer here */
-	height: 40px;
+	height: 40px; /* Set the fixed height of the footer here */
 	line-height: 40px; /* Vertically center the text there */
+
 	background-color: #f5f5f5;
 	text-align: center;
 	font-size: 12px;
 }
 
-/*Front page circles formatting*/
+/* ------------ LANDING PAGE (CIRCLES) ------------ */
 
 .circle {
 	width: 360px;
@@ -174,6 +149,16 @@ h2 {
     align-items: center;
 }
 
+/* Setting all the colours */
+
+#main-page {
+	background-color: rgba(249,249,249,0.6);
+	border-color: #f5f5f5;
+	border-width: 1px;
+	border-style: solid;
+	padding-bottom: 15px;
+}
+
 #editing {
 	background-color: #FF7565;
 }
@@ -184,25 +169,7 @@ h2 {
 	background-color: #FF72CE;
 }
 
-#main-page {
-	background-color: rgba(249,249,249,0.6);
-	border-color: #f5f5f5;
-	border-width: 1px;
-	border-style: solid;
-	padding-bottom: 15px;
-}
-
-#info {
-	background-color: #7F7F7F;
-	height: 35px;
-	margin-bottom: 8px;
-}
-
-#info h1 {
-	font-size: 98%;
-}
-
-/*Content Pages*/
+/* ------------ CONTENT PAGES (EDITING, CURATING, WRITING) ------------ */
 
 .content-title {
 	margin: 2.5% auto;
@@ -290,15 +257,28 @@ p {
 	margin-top: 8px;
 }
 
-/*Info page */
-th, td {
-    padding-right: 15px;
-    padding-bottom: 15px;
+/* ------------ INFO PAGE ------------ */
+
+#info {
+	margin-bottom: 8px;
+	height: 35px;
+	background-color: #7F7F7F;
+}
+
+#info h1 {
+	font-size: 98%;
 }
 
 h3 {
 	padding-top: 30px;
 }
+
+th, td {
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+/* Made the email an image so that it cannot be spammed */
 
 img {
 	height: 20px;

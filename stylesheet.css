@@ -15,7 +15,7 @@ body {
 
 /*Header: standard formatting*/
 
-.navbar, .navbar-brand, .navbar-toggle, .navbar-collapse {
+.navbar, .navbar-brand, .navbar-toggle {
 	height: 80px;
 	line-height: 80px;
 	padding: 0;
@@ -27,7 +27,7 @@ body {
 }
 
 .navbar-right {
-	margin-top: 1.2%;
+	margin-top: 15px;
 }
 
 .header {
@@ -39,6 +39,37 @@ body {
    	margin: 0 auto;
 	color: #FFFFFF;
 	font-size: 14px;
+}
+
+button {
+	width: 40px !important;
+	height: 40px !important;
+}
+
+.navbar-toggle {
+    position: relative;
+    width: 100%;
+    margin: 0 auto !important;
+    margin-top: 22px !important;
+    margin-right: 20px !important;
+}
+
+.glyphicon-th-list {
+	font-size: 30px;
+	padding: 0px !important;
+	vertical-align: middle;
+	margin-bottom: 48px;
+	opacity: 0.6;
+	filter: alpha(opacity=60); /*For IE8 and earlier*/
+}
+
+@media screen and (max-width: 768px) {
+	.navbar-collapse {
+		background-color: #FFFFFF;
+		border-bottom-color: #f5f5f5;
+		border-bottom-width: 2px;
+		border-bottom-style: solid;
+	}
 }
 
 		/*Header: media formatting*/

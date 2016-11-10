@@ -131,6 +131,8 @@ h2 {
   	top: 42%;
   	text-align: center;
 	color: #FFFFFF;
+	font-weight: bold;
+	letter-spacing: 3px;
 	
  	transform: translateY(-50%);
     -webkit-transform: translateY(-50%);

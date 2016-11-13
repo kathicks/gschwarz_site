@@ -12,7 +12,6 @@ body {
 	padding-bottom: 50px;
 }
 
-
 /* ------------ HEADER ------------ */
 
 .navbar-brand {
@@ -321,14 +320,14 @@ h3 {
 	outline-style: solid;
 }
 
+p {
+	margin-top: 8px;
+}
+
 a, a:link, a:hover, a:visited, a:active {
 	margin: 0 auto; /*keeps landing circles centre aligned*/
 	text-decoration: none; /*keeps info boxes standard styling */
 	color: #000000;
-}
-
-p {
-	margin-top: 8px;
 }
 
 	@media screen and (max-width: 450px) { /*bootstrap smartphone breakpoint*/
@@ -379,14 +378,35 @@ h3 {
 	padding-top: 30px;
 }
 
-th, td {
-    padding-right: 15px;
-    padding-bottom: 15px;
+table {
+	margin-bottom: 15px;
+}
+
+td {
+	padding-top: 15px;
+	padding-right: 15px;
+	vertical-align: text-top;
+}
+
+.about-major {
+	font-weight: bold;
+}
+
+.about-minor {
+	margin-top: -5px !important;
 }
 
 /* Made the email an image so that it cannot be spammed */
 
 img {
-	height: 20px;
-	margin-bottom: 1px;
+	height: 16px;
 }
+
+	@media screen and (max-width: 992px) { /*bootstrap xs breakpoint*/
+	}
+
+	@media screen and (max-width: 450px) { /*bootstrap smartphone breakpoint*/
+		img {
+			height: 12px;
+		}
+	}

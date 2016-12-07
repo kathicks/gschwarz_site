@@ -118,7 +118,7 @@ button {
 
 	@media screen and (max-width: 450px) { /*bootstrap smartphone breakpoint*/
 		.footer {
-			font-size: 8px;
+			font-size: 7.6px;
 			;
 		}
 	}

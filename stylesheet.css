@@ -41,7 +41,6 @@ body {
 	margin-top: 15px;
 }
 
-
 button {
 	width: 40px !important;
 	height: 40px !important;
@@ -128,7 +127,7 @@ button {
 		}
 
 		.footer-main {
-			font-size: 6px;
+			font-size: 7.6px;
 			line-height: 30px;
 			height: 60px;
 		}
@@ -142,6 +141,7 @@ button {
 		.glyphicon-chevron-down {
 			opacity: 0.8;
 		}
+	}
 
 /* ------------ LANDING PAGE (CIRCLES) ------------ */
 
@@ -237,10 +237,6 @@ h2 {
 			margin: -10px;
 		}
 	}
-
-.page-nav {
-	text-decoration: none;
-}
 
 /* Setting all the colours */
 

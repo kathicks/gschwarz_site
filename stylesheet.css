@@ -258,8 +258,12 @@ h2 {
 
 /* ------------ CONTENT PAGES (EDITING, CURATING, WRITING) ------------ */
 
+#content {
+	margin-bottom: 40px;
+}
+
 .content-title {
-	margin: 2.5% auto;
+	margin: 30px auto 15px auto;
 	height: 48px;
 	opacity: 0.6;
 	filter: alpha(opacity=60); /*For IE8 and earlier*/
@@ -267,7 +271,8 @@ h2 {
 
 .blurb {
 	margin-bottom: 30px;
-	margin-top: -20px;
+	margin-top: 0px;
+	padding-top: 0px;
 }
 
 h1 {

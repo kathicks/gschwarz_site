@@ -103,7 +103,7 @@ button {
 
 /* ------------ FOOTER ------------ */
 
-.footer {
+.footer, .footer-main {
     position: fixed;
     bottom: 0;
 
@@ -116,10 +116,31 @@ button {
 	font-size: 12px;
 }
 
+.scroll-prompt {
+	display: none;
+}
+
 	@media screen and (max-width: 450px) { /*bootstrap smartphone breakpoint*/
 		.footer {
-			font-size: 8px;
-			;
+			font-size: 6px;
+			height: 30px; /* Set the fixed height of the footer here */
+			line-height: 30px; 
+		}
+
+		.footer-main {
+			font-size: 6px;
+			line-height: 30px;
+			height: 60px;
+		}
+
+		.scroll-prompt {
+			display: block;
+			background-color: #FFFFFF;
+			line-height: 30px;
+		}
+
+		.glyphicon-chevron-down {
+			opacity: 0.8;
 		}
 	}
 

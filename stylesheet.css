@@ -422,3 +422,121 @@ img {
 			height: 12px;
 		}
 	}
+
+.social {
+	margin-top: 45px;
+}
+
+.fa {
+	color: #FFFFFF;
+}
+
+.btn-instagram{
+	color:#fff;
+	background-color:#626262;
+	border-color:#626262;
+}
+.btn-instagram:focus,.btn-instagram.focus{
+	color:#fff;
+	background-color:#626262;
+	border-color:#626262;
+}
+.btn-instagram:hover{
+	color:#fff;
+	background-color:#777;
+	border-color:#777;
+}
+.btn-instagram:active,.btn-instagram.active,.open>.dropdown-toggle.btn-instagram{
+	color:#fff;
+	background-color:#777;
+	border-color:#777;
+}
+.btn-instagram:active:hover,.btn-instagram.active:hover,.open>.dropdown-toggle.btn-instagram:hover,.btn-instagram:active:focus,.btn-instagram.active:focus,.open>.dropdown-toggle.btn-instagram:focus,.btn-instagram:active.focus,.btn-instagram.active.focus,.open>.dropdown-toggle.btn-instagram.focus{
+	color:#fff;
+	background-color:#777;
+	border-color:#777;
+}
+.btn-instagram:active,.btn-instagram.active,.open>.dropdown-toggle.btn-instagram{
+	background-image:none;
+}
+.btn-instagram.disabled:hover,.btn-instagram[disabled]:hover,fieldset[disabled] .btn-instagram:hover,.btn-instagram.disabled:focus,.btn-instagram[disabled]:focus,fieldset[disabled] .btn-instagram:focus,.btn-instagram.disabled.focus,.btn-instagram[disabled].focus,fieldset[disabled] .btn-instagram.focus{
+	background-color:#777;
+	border-color:#777;
+}
+.btn-instagram .badge{
+	color:#777;
+	background-color:#fff
+}
+
+.btn-linkedin{
+	color:#fff;
+	background-color:#626262;
+	border-color:#626262;
+}
+.btn-linkedin:focus,.btn-linkedin.focus{
+	color:#fff;
+	background-color:#626262;
+	border-color:#626262;
+}
+.btn-linkedin:hover{
+	color:#fff;
+	background-color:#777;
+	border-color:#777;
+}
+.btn-linkedin:active,.btn-linkedin.active,.open>.dropdown-toggle.btn-linkedin{
+	color:#fff;
+	background-color:#777;
+	border-color:#777;
+}
+.btn-linkedin:active:hover,.btn-linkedin.active:hover,.open>.dropdown-toggle.btn-linkedin:hover,.btn-linkedin:active:focus,.btn-linkedin.active:focus,.open>.dropdown-toggle.btn-linkedin:focus,.btn-linkedin:active.focus,.btn-linkedin.active.focus,.open>.dropdown-toggle.btn-linkedin.focus{
+	color:#fff;
+	background-color:#777;
+	border-color:#777;
+}
+.btn-linkedin:active,.btn-linkedin.active,.open>.dropdown-toggle.btn-linkedin{
+	background-image:none;
+}
+.btn-linkedin.disabled:hover,.btn-linkedin[disabled]:hover,fieldset[disabled] .btn-linkedin:hover,.btn-linkedin.disabled:focus,.btn-linkedin[disabled]:focus,fieldset[disabled] .btn-linkedin:focus,.btn-linkedin.disabled.focus,.btn-linkedin[disabled].focus,fieldset[disabled] .btn-linkedin.focus{
+	background-color:#777;
+	border-color:#777;
+}
+.btn-linkedin .badge{
+	color:#777;
+	background-color:#fff
+}
+.btn-twitter{
+	color:#fff;
+	background-color:#626262;
+	border-color:#626262;
+}
+.btn-twitter:focus,.btn-twitter.focus{
+	color:#fff;
+	background-color:#626262;
+	border-color:#626262;
+}
+.btn-twitter:hover{
+	color:#fff;
+	background-color:#777;
+	border-color:#777;
+}
+.btn-twitter:active,.btn-twitter.active,.open>.dropdown-toggle.btn-twitter{
+	color:#fff;
+	background-color:#777;
+	border-color:#777;
+}
+.btn-twitter:active:hover,.btn-twitter.active:hover,.open>.dropdown-toggle.btn-twitter:hover,.btn-twitter:active:focus,.btn-twitter.active:focus,.open>.dropdown-toggle.btn-twitter:focus,.btn-twitter:active.focus,.btn-twitter.active.focus,.open>.dropdown-toggle.btn-twitter.focus{
+	color:#fff;
+	background-color:#777;
+	border-color:#777;
+}
+.btn-twitter:active,.btn-twitter.active,.open>.dropdown-toggle.btn-twitter{
+	background-image:none
+}
+.btn-twitter.disabled:hover,.btn-twitter[disabled]:hover,fieldset[disabled] .btn-twitter:hover,.btn-twitter.disabled:focus,.btn-twitter[disabled]:focus,fieldset[disabled] .btn-twitter:focus,.btn-twitter.disabled.focus,.btn-twitter[disabled].focus,fieldset[disabled] .btn-twitter.focus{
+	background-color:#777;
+	border-color:#777;
+}
+.btn-twitter .badge{
+	color:#777;
+	background-color:#fff
+}

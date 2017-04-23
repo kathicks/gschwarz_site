@@ -396,17 +396,30 @@ img {
 
 	@media screen and (max-width: 450px) { /*bootstrap smartphone breakpoint*/
 		img {
-			height: 11px;
+			height: 12px;
 		}
 
 		.about-info {
-			padding-left: 45px;
-			padding-right: 45px;
-			font-size: 0.8em;
+			margin-top: 12vh !important;
+			padding-left: 25px;
+			padding-right: 25px;
+			font-size: 0.85em;
 		}
 
 		p {
 			margin: 8px;
+		}
+
+		.btn-social-icon {
+			width: 25px;
+			height: 25px;
+			line-height: 25px;
+			font-size: 12px;
+		}
+
+		.btn-social-icon>:first-child {
+	    line-height: 25px;
+	    font-size: 1.4em;
 		}
 	}
 

@@ -396,7 +396,17 @@ img {
 
 	@media screen and (max-width: 450px) { /*bootstrap smartphone breakpoint*/
 		img {
-			height: 12px;
+			height: 11px;
+		}
+
+		.about-info {
+			padding-left: 45px;
+			padding-right: 45px;
+			font-size: 0.8em;
+		}
+
+		p {
+			margin: 8px;
 		}
 	}
 

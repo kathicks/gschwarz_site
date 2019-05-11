@@ -1,0 +1,40 @@
+p {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+  font-size: 24px;
+}
+
+a {
+  color: #000;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #000;
+  font-weight: bold;
+}
+
+.about {
+  font-size: 18px;
+}
+
+.heading-pink .heading, .heading-pink a:hover {
+  color: #ff4796;
+}
+
+.heading-orange .heading, .heading-orange a:hover {
+  color: #ff8147;
+}
+
+.heading-green .heading, .heading-green a:hover {
+  color: #a4d62f;
+}
+
+.heading-blue .heading, .heading-blue a:hover {
+  color: #42adff;
+}

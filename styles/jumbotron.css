@@ -1,0 +1,22 @@
+.jumbotron {
+  height: 50vh;
+  overflow: hidden;
+  position: relative;
+  background: url("../images/paula_modersohn_becker_stillleben_mit_goldfischglas.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .jumbotron {
+    height: 40vh;
+    background-attachment: local;
+    background-position: center -50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .jumbotron {
+    background-position: center top;
+  }
+}

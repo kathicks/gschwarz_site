@@ -19,3 +19,9 @@ section {
 .contact-links {
   margin: 20px 0;
 }
+
+.source {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 60px;
+}

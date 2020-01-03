@@ -23,6 +23,10 @@ a:hover {
   font-size: 18px;
 }
 
+.source {
+  font-size: 12px;
+}
+
 .heading-pink .heading, .heading-pink a:hover {
   color: #ff4796;
 }

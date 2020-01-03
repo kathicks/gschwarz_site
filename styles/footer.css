@@ -5,3 +5,7 @@
   border-top: 1px solid #000;
   flex-shrink: 0;
 }
+
+.footer .last-updated {
+  float: right;
+}

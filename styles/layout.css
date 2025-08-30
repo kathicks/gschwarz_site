@@ -25,3 +25,16 @@ section {
   bottom: 0;
   margin-bottom: 60px;
 }
+
+p {
+  margin-bottom:0.25em;
+}
+
+.top-section p {
+  margin-bottom:.75em;
+}
+
+
+h1 {
+  margin-bottom:.5em;
+}
